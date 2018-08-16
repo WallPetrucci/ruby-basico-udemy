@@ -23,7 +23,7 @@ class Pessoa
 	# end	
 
 	def gritar(grito = "AAAAAAAaaaaaaaaaaaaaaaaaaaah")
-		print "Estou gritando : #{grito}";
+		puts "Estou gritando : #{grito}";
 	end
 
 	def agradecer(texto = "Obrigado")
