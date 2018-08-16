@@ -5,7 +5,7 @@ class Pessoa
 	end
 
 	def agradecer(texto = "Obrigado")
-		print "Agradeço por tudo: #{texto}";
+		return "Agradeço por tudo: #{texto}"; # Não é obrigado a colcoar return, todo método retorna, e não só executa.
 	end
 
 end	
